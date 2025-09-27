@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nota Fiscal Eletronica e-NF</title>
+    <title>Nota Fiscal Eletronica NF-e</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <style>
         * {
@@ -1502,7 +1502,7 @@
                 currentY += 20;
                 doc.setFontSize(8);
                 doc.setFont('helvetica', 'normal');
-                doc.text('Esta é uma representação simplificada de nota fiscal para fins demonstrativos.', pageWidth / 2, currentY, { align: 'center' });
+                doc.text('Esta é uma simplificada nota fiscal Eletronica NF-e.', pageWidth / 2, currentY, { align: 'center' });
                 currentY += 5;
                 doc.text(`Gerado em: ${new Date().toLocaleString('pt-BR')}`, pageWidth / 2, currentY, { align: 'center' });
                 
